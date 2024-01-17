@@ -2,6 +2,8 @@ package config
 
 
 
-func db() string{
-	return "something"
+import "fmt"
+
+func DB() {
+    fmt.Println("Connecting to the database...")
 }
